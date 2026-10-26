@@ -1,0 +1,20 @@
+# Dependensi & hasil build
+node_modules/
+dist/
+
+# Data pribadi: jangan pernah di-commit
+*.xlsx
+*.xls
+*.csv
+contoh-notifikasi/
+private/
+
+# Konfigurasi & kredensial clasp
+.clasp.json
+.clasprc.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
